@@ -3,11 +3,11 @@ x=Tk()
 x.geometry("600x600")
 x.title("CALC BY PRATEEK GOEL")
 
-#calc ouput screen
+
 t=StringVar()
 cur_pos=" "
 
-
+#calc ouput screen
 t.set("")
 display_entry = Entry(textvariable=t,width=35, borderwidth=5) #font=('Arial', 24), bd=5, insertwidth=4, bg="lightgray", justify='right')
 display_entry.grid(row=0,column=0,columnspan=4,padx=10, pady=10) 
