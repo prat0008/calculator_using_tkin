@@ -38,6 +38,7 @@ def click_plus():
         global first_numb
         first_numb = float(t.get())
         t.set("+")
+        
 def click_equal():
         second_numb =float(t.get())
         result=  first_numb + second_numb
