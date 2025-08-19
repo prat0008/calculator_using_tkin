@@ -5,3 +5,5 @@ Calculator using Tkinter
 Made by Prateek Goel
 <br>
 tkinter practioner
+<br>
+basic functions added (+ - / \*)

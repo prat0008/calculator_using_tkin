@@ -9,7 +9,8 @@ cur_pos=" "
 
 #calc ouput screen
 t.set("")
-display_entry = Entry(textvariable=t,width=35, borderwidth=5) #font=('Arial', 24), bd=5, insertwidth=4, bg="lightgray", justify='right')
+display_entry = Entry(textvariable=t,width=35,borderwidth=5) 
+#font=('Arial',12), bd=5, insertwidth=4, bg="lightgray", justify='right'
 display_entry.grid(row=0,column=0,columnspan=4,padx=10, pady=10) 
 
 
@@ -51,8 +52,6 @@ def click_equal():
         second_numb =float(t.get())
         result=  first_numb - second_numb
         t.set(result)
-
-
 
 def click_multiply():
         global first_numb
