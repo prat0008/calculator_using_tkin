@@ -38,7 +38,6 @@ def click_plus():
         global first_numb
         first_numb = float(t.get())
         t.set("+")
-        
 def click_equal():
         second_numb =float(t.get())
         result=  first_numb + second_numb
@@ -48,18 +47,32 @@ def click_minus():
         global first_numb
         first_numb =float(t.get())
         t.set("-")
+def click_equal():
+        second_numb =float(t.get())
+        result=  first_numb - second_numb
+        t.set(result)
+
 
 
 def click_multiply():
         global first_numb
         first_numb =float(t.get())
         t.set("*")
+def click_equal():
+        second_numb =float(t.get())
+        result=  first_numb * second_numb
+        t.set(result)
 
 
 def click_divide():
         global first_numb
         first_numb =float(t.get())
         t.set("/")
+def click_equal():
+        second_numb =float(t.get())
+        result=  first_numb / second_numb
+        t.set(result)
+
 def clear():
         t.set("")
                 
