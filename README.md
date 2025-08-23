@@ -4,6 +4,6 @@ Calculator using Tkinter
 <br>
 Made by Prateek Goel
 <br>
-tkinter practioner
+fully functioned with basic operations (+,-,\*,/)
 <br>
-basic functions added (+ - / \*)
+Thank You
