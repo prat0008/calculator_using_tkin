@@ -121,7 +121,7 @@ o4=Button(text="/",command=click_divide,padx=5,pady=5,height=1,width=7)
 o4.grid(row=4, column=4)
 
 #equals command
-e1=Button(text="=",command=click_equal,padx=5,pady=5,height=1,width=7)
+e1=Button(text="=",command=lambda:click_equal,padx=5,pady=5,height=1,width=7)
 e1.grid(row=5, column=4)
 
 #clear command
